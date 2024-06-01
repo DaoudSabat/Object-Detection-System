@@ -14,7 +14,7 @@ def load_faster_rcnn():
 
 def load_ssd():
     model_name = "SSD"
-    with open("C:/Users/daoud/FYP2/RcnnSddMain/SSD.py", "r", encoding="cp1252") as file:
+    with open("C:/Users/daoud/FYP2/FYP2/RcnnSddMain/SSD.py", "r", encoding="cp1252") as file:
         exec(file.read(), globals())
 
 def create_main_window():

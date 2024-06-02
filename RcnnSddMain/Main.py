@@ -4,7 +4,7 @@ from tkinter import messagebox
 # Your model loading functions
 def load_yolo():
     model_name = "YOLO"
-    with open("C:/Users/daoud/Teest1/YOLO.py", "r", encoding="cp1252") as file:
+    with open("C:/Users/daoud/FYP2/FYP2/RcnnSddMain/YOLO.py", "r", encoding="cp1252") as file:
         exec(file.read(), globals())
 
 def load_faster_rcnn():
